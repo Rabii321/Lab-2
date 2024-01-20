@@ -1,0 +1,17 @@
+.flex-container{
+display: flex; /*mEnables Flexbox */
+justify-content: space-around;
+align-items: center;
+padding: 15px;
+background: rgb(30, 0, 255);
+}
+
+.flex-item {
+    background-color:#b1b1b1;
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    flex-grow: 1; 
+}
